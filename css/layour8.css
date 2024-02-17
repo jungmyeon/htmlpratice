@@ -1,0 +1,78 @@
+div{
+    border: 1px solid yellowgreen;
+    width: 400px;
+}
+
+ul{
+    list-style-type: square;
+}
+
+ol{
+    list-style-type: upper-roman;
+}
+
+
+.nav li{
+    display: inline-block;
+    width: 60px;
+    background-color: violet;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+a,
+a:link,
+a:visited,
+a:active,
+a:focus
+{
+    text-decoration: none;
+    color: blue;
+    font: side 16px;
+}
+
+a:hover{
+    text-decoration: none;
+    color: green;
+    font: side 16px;
+}
+
+
+
+.back-image{
+    background-image: url(../images/coffee.jpg);
+    width: 1000px;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10%;
+}
+
+.image-title{
+    color: yellow;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.image-content{
+    color: yellow;
+    font-size: 25px;
+    text-align: center;
+}
+
+.image-button{
+    /* position : relative [원래 위치를 기준으로 이동]*/
+    /* position : abslolute [(relative)부모를 기분으로 이동*/
+    position: relative;
+    left: 20%
+
+}
+
+.target{
+    position: relative;
+    left: 16%;
+    top: -25px
+}
