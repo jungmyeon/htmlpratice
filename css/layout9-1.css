@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+}
+
+.section-header{
+    width: 100%;
+    background: rgb(246,245,239);
+    height: 120px;
+}
+
+.inner-header{
+    width: 1100px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 75px;
+    height: 75px;
+    position: relative;
+    right: 20%;
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.space-nav{
+
+}
+
+.space-nav li{
+    display: inline-block;
+}
+.top-nav{
+    height: 45px;
+    font-size: 13px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.top-nav a{
+    color: black;
+    text-decoration: none; /* 밑줄없애기*/
+    padding-right: 15px;
+    padding-left: 15px;
+    border-right: 1px solid lightgray;
+}
+
+.top-nav a:hover{
+    text-decoration: underline; /*밑줄*/
+}
+
+.top-nav button{
+    background-color: white;
+    padding: 4px 7px 4px 7px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.bottom-nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bottom-nav a{
+    color: black;
+    text-decoration: none; /* 밑줄없애기*/
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.bottom-nav a:hover{
+    color: green;
+    text-decoration: underline;
+}
+
+.section1{
+    width: 100%;
+    background-image: url(/images/section1back.PNG);
+    height: 600px;
+    background-repeat:no-repeat;
+    background-size: 100% auto;
+    position: relative;
+}
+
+.text-img{
+    position: absolute;
+    left: 15%;
+    top: 25%;
+}
+
+.detail-btn{
+    background: none;
+    border-radius: 5px;
+    border: 2px solid black;
+    position: absolute;
+    left: 22%;
+    top: 67%;
+    padding: 5px 10px 5px 10px;
+}
+
+.section1 .detail-btn:hover{
+    background:darkgreen;
+    color: white;
+    text-decoration: underline;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+
+
+.espresso{
+    position: absolute;
+    left: 57%;
+    top: 10%;
+}
+
+.whitetaromilk{
+    position: absolute;
+    left: 36%;
+    top: 16%;
+}
+
+.chamoniletea{
+    position: absolute;
+    left: 47%;
+    top: 50%;
+}
