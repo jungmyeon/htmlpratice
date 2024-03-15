@@ -2,6 +2,7 @@ body{
     margin: 0;
     width: 100%;
     height: 100%;
+    padding: 0;
 }
 
 .section-header{
@@ -425,7 +426,8 @@ body{
     background-repeat:no-repeat;
     position: relative;
     width: 100%;
-    height: 380px;
+    height: 370px;
+    margin: 0;
 }
 
 .section8-img1{
@@ -469,4 +471,127 @@ body{
     font-size: 15px;
     padding:5px 20px;
 
+}
+
+.section9{
+    background: rgb(44, 42, 41);
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+
+.section9-inner1 {
+    color: white;
+    text-align: left;
+    height: 250px;
+    width: 1200px;
+    position: absolute;
+    left: 15%;
+}
+
+.section9-inner1 ul{
+    padding: 0;
+    margin-top: 5%;
+    width: 220px;
+    color: white;
+    list-style-type: none;
+    float: left;
+    font-size: 14px;
+}
+
+.section9-inner1 li{
+    padding: 2px;
+}
+.section9-li1,
+.section9-li2,
+.section9-li3,
+.section9-li4,
+.section9-li5{
+    height: 40px;
+}
+
+.section9-img{
+    position: absolute;
+    top: 5%;
+    left: 81%;
+}
+
+
+.section9-inner2{
+    position: absolute;
+    top: 52%;
+    left: 14.5%;  
+    width: 100%;
+}
+
+.section9-inner3{
+    display: flex;
+    font-size: 11px;
+    margin-left: 14.5%;
+    position: absolute;
+    top: 66%;
+}
+
+
+
+.section9-inner3 a{
+    font-weight: bold;
+    padding-right: 8px;
+    padding-left: 8px;
+    border-right: 1px solid rgb(56, 53, 53);
+}
+
+.section9-inner1 li:hover,
+.section9-inner3 a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.section9-inner3-a1, .section9-inner3-a4{
+    color: green;
+} 
+
+.section9-inner3-a2,
+.section9-inner3-a3,
+.section9-inner3-a5,
+.section9-inner3-a6,
+.section9-inner3-a7,
+.section9-inner3-a8,
+.section9-inner3-a9{
+    color: white;
+}
+
+.section9-inner4{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    top: 72.5%;
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+}
+
+.section9-inner4-a1,
+.section9-inner4-a2,
+.section9-inner4-a3{
+    border: 2px solid white;
+    padding: 8px 20px 8px 20px;
+    border-radius: 5px;
+    font-size: 12px;
+    align-items: c;
+    color: white;
+}
+
+.section9-inner4-a4,
+.section9-inner4-a5,
+.section9-inner4-a6,
+.section9-inner4-a7,
+.section9-inner4-a8{
+    font-size: 12px;
+    color: gray;
+    margin: 0;
+}
+
+.section9-inner4 hr{
+    border: 0px;
 }
