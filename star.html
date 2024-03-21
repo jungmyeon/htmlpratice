@@ -26,22 +26,29 @@
                 </div>
                 <div class="bottom-nav">
                     <ul>
-                        <li><a href="#">COFFEE</a></li>
-                        <li><a href="#">MENU</a></li>
-                        <li><a href="#">STORE</a></li>
-                        <li><a href="#">RESPONSIBILITY</a></li>
-                        <li><a href="#">SRARBUCKS REWARDS</a></li>
-                        <li><a href="#">CORPORATE SALES</a></li>
-                        <li><a href="#">WHAT'S NEW</a></li>
+                        <li class="bottom-nav-inner"><a href="#">COFFEE</a></li>
+                        <li class="bottom-nav-inner"><a href="#">MENU</a></li>
+                        <li class="bottom-nav-inner"><a href="#">STORE</a></li>
+                        <li class="bottom-nav-inner"><a href="#">RESPONSIBILITY</a></li>
+                        <li class="bottom-nav-inner"><a href="#">SRARBUCKS REWARDS</a></li>
+                        <li class="bottom-nav-inner"><a href="#">CORPORATE SALES</a></li>
+                        <li class="bottom-nav-inner"><a href="#">WHAT'S NEW</a></li>
                     </ul>
-                </div>
+                </div>     
             </div>
         </div>
     </div>
 
     <div class="section1">
+                    <div class="jsinner-nav display-none">탭1의 내용</div>
+                    <div class="jsinner-nav display-none">탭2의 내용</div>
+                    <div class="jsinner-nav display-none">탭3의 내용</div>
+                    <div class="jsinner-nav display-none">탭4의 내용</div>
+                    <div class="jsinner-nav display-none">탭5의 내용</div>
+                    <div class="jsinner-nav display-none">탭6의 내용</div>
+                    <div class="jsinner-nav display-none">탭7의 내용</div>
         <img src="/images/section1.PNG" alt="" class="text-img">
-        <button class="detail-btn">자세히 보기</button>
+        <div class="detail-btn"><button class="detail-btn1">자세히 보기</button></div>
         <img src="/images/whitetaromilk.PNG" alt="" class="whitetaromilk">
         <img src="/images/chamoniletea.PNG" alt="" class="chamoniletea">
         <img src="/images/espresso.PNG" alt="" class="espresso">
@@ -69,7 +76,8 @@
                 <li><span>스타벅스 회원이세요?</span> 로그인을 통해 나만의 리워드를 확인해보세요.</li>
                 <li><span>스타벅스 회원이 아니세요?</span> 가입을 통해 리워드 혜택을 즐기세요.</li>
             </ul>
-            <div class="section3-top-button"><button class="section3-top-button1">회원가입</button> <button class="section3-top-button2">로그인</button></div>
+            <div class="section3-top-button"><button class="section3-top-button1">회원가입</button>
+             <button class="section3-top-button2">로그인</button></div>
             </div>
 
             <hr>
@@ -203,6 +211,19 @@
             <a class="section9-inner4-a8">ⓒ 2024 Starbucks Coffee Company. All Rights Reserved.</a>
         </div>
     </div>
-    
+    <script>
+        for(let i=0; i<8; i++){
+        document.querySelectorAll('.bottom-nav-inner')[i].addEventListener('mouseover',function(){
+            document.querySelectorAll('.jsinner-nav')[i].classList.remove('display-none')
+            document.querySelectorAll('.jsinner-nav')[i].classList.add('bottom-nav-tap')
+            
+        })
+        document.querySelectorAll('.bottom-nav-inner')[i].addEventListener('mouseout',function(){
+            document.querySelectorAll('.jsinner-nav')[i].classList.remove('bottom-nav-tap')
+            document.querySelectorAll('.jsinner-nav')[i].classList.add('display-none')
+        })}
+  
+
+    </script>
 </body>
 </html>
