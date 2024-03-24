@@ -107,8 +107,9 @@ body{
     width: 100%;
     background-image: url(/images/section1back.PNG);
     height: 540px;
+    background-position: center;
     background-repeat:no-repeat;
-    background-size: 100% auto;
+    background-size: cover;
     position: relative;
 }
 
